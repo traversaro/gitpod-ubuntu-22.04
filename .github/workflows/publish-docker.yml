@@ -11,7 +11,7 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@main
       with:
-        name: traversaro/gitpod-ubuntu-20.04
+        name: traversaro/gitpod-ubuntu-22.04
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         workdir: dockerfiles
